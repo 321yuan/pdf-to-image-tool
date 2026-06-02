@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PDF转图片工具
 
 Python 工具，用于将PDF转图片工具，支持图形化界面操作。
@@ -70,3 +71,7 @@ pdf转图片工具/
 ## 许可证
 
 MIT License
+=======
+# pdf-to-image-tool
+PDF转图片工具
+>>>>>>> c943db2aee61eb0a42f5544ab3d1dc5fec725b4e
