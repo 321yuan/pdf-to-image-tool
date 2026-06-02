@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # PDF转图片工具
 
-Python 工具，用于将PDF转图片工具，支持图形化界面操作。
+Python 工具，用于将PDF转换为图片，支持图形化界面操作。
 
 ## 功能特性
 
@@ -23,7 +22,7 @@ pip install pymupdf pillow
 ### 方法一：直接运行
 
 ```bash
-python pdf转图片.py
+python pdf-to-image-tool.py
 ```
 
 ### 方法二：使用虚拟环境
@@ -32,15 +31,14 @@ python pdf转图片.py
 # 创建虚拟环境
 python -m venv .venv
 
-# 激活虚拟环境
-# Windows
+# 激活虚拟环境（Windows）
 .venv\Scripts\activate
 
 # 安装依赖
 pip install pymupdf pillow
 
 # 运行
-python pdf转图片.py
+python pdf-to-image-tool.py
 ```
 
 ## 界面说明
@@ -54,11 +52,12 @@ python pdf转图片.py
 ## 项目结构
 
 ```
-pdf转图片工具/
-├── pdf转图片.py      # 主程序文件
-├── README.md         # 项目说明
-├── requirements.txt  # 依赖列表
-└── .gitignore        # Git忽略文件
+pdf-to-image-tool/
+├── pdf-to-image-tool.py   # 主程序文件
+├── README.md              # 项目说明
+├── requirements.txt       # 依赖列表
+└── dist/
+    └── PDF转图片工具.exe   # 打包后的可执行文件
 ```
 
 ## 技术栈
@@ -71,7 +70,3 @@ pdf转图片工具/
 ## 许可证
 
 MIT License
-=======
-# pdf-to-image-tool
-PDF转图片工具
->>>>>>> c943db2aee61eb0a42f5544ab3d1dc5fec725b4e
