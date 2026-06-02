@@ -56,8 +56,6 @@ pdf-to-image-tool/
 ├── pdf-to-image-tool.py   # 主程序文件
 ├── README.md              # 项目说明
 ├── requirements.txt       # 依赖列表
-└── dist/
-    └── PDF转图片工具.exe   # 打包后的可执行文件
 ```
 
 ## 技术栈
